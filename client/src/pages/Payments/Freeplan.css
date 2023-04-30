@@ -1,0 +1,133 @@
+.freeplancontainer{
+/* border: 1px solid black; */
+border-radius:50px;
+display: flex;
+/* justify-content: center; */
+flex-direction: column;
+align-items: center;
+box-shadow: 0 15px 25px #443d1c14, 0 6.26664px 10.4444px #443d1c0f, 0 3.35045px 5.58408px #443d1c0c, 0 1.87823px 3.13039px #443d1c0a, 0 0.997515px 1.66253px #443d1c08, 0 0.415088px 0.691814px #443d1c06;
+min-width: 22rem;
+max-width: 25vw;
+flex-wrap: wrap;
+/* height: 95vh; */
+/* margin-left: 3rem; */
+/* margin-left: auto; */
+margin-left: 3rem;
+margin-right: 3rem;
+height: 45vh;
+
+}
+.containertag{
+/* border: 1px solid black; */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: auto;
+margin-left: 1.2rem;
+margin-top: 2rem;
+width: 90px;
+height: 1.5rem;
+background-color: #F2740D;
+color: white;
+border-radius: 10px;
+padding: .2rem;
+
+}
+.containertag>h1{
+    font-weight: 400!important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3vh;
+   
+}
+.f-uppercontainer{
+
+/* border: 1px solid black; */
+display: flex;
+/* align-items: center; */
+justify-content: flex-start;
+margin-right: auto;
+flex-direction: column;
+margin-left:1.2rem ;
+min-width: 90%;
+border-bottom:1px solid #F2740D ;
+
+
+}
+
+.f-uppercontainer>h1{
+    margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3vh;
+    color: rgb(49, 48, 48);
+}
+
+.f-uppercontainer>p{
+    font-size: 2vh;
+    margin-top: 0;
+    font-weight: 400;
+    color: rgb(189, 185, 185);
+}
+
+
+
+
+
+.f-middlecontainer{
+/* border: 1px solid black; */
+display: flex;
+width: 90%;
+/* justify-content: flex-start; */
+margin-right: auto;
+margin-left:1.2rem ;
+}
+
+.f-middlecontainer>p{
+    font-size: 2.3vh;
+}
+
+.f-lowercontainer{
+
+margin-top: auto;
+margin-bottom: 3rem;
+width: 95%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.f-lowercontainer>button{
+
+width: 5rem;
+height: 2rem;
+width: 40%;
+background-color: #F2740D;
+color: white;
+cursor: pointer;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: .9rem;
+border-radius: 10px;
+border: none;
+
+}
+.f-lowercontainer>p
+{
+    font-size: 2vh;
+    margin-top: 0;
+    font-weight: 400;
+    color: #F2740D;
+}
+.f-lowercontainer>button:hover{
+    background-color: #d8680c;
+}
+
+@media screen and (min-width: 1200px) {
+    .freeplancontainer
+    {
+     height: 55vh;
+     min-width: 20vw;
+    }
+    
+  }
+
+

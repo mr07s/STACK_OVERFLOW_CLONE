@@ -86,7 +86,9 @@ const User =JSON.parse(localStorage.getItem('Profile'));
 
 const location =useLocation();
 // console.log(location);
-const url ='http://localhost:3000'
+// const url ='http://localhost:3000'
+const url ='https://stackoverflow-mrs07.netlify.app'
+
 
 
 

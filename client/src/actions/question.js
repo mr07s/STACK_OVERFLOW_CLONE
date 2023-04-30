@@ -20,7 +20,8 @@ try {
    const {data} =await api.getAllQuestions();
    dispatch({type:'FETCH_ALL_QUESTIONS',payload:data});
 
-} catch (error) {
+} 
+catch (error) {
    
 console.log(error);
 
@@ -59,7 +60,7 @@ try {
 
 
 } catch (error) {
-   console.log(error+"why");
+   console.log(error);
 
 }
 

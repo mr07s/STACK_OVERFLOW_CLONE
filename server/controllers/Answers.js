@@ -11,6 +11,7 @@ if(!mongoose.Types.ObjectId.isValid(_id)){
     return res.status(404).send('question unavailable');
 
 }
+
 updateNoOfQuestions(_id,noOfAnswers);
 try {
     const updatedQuestion =await Questions.findByIdAndUpdate(_id,{$addToSet :{'answer':[{answerBody,userAnswered,userId}]}})
@@ -35,7 +36,7 @@ const updateNoOfQuestions = async (_id, noOfAnswers) => {
       await Questions.findByIdAndUpdate(_id, {
         $set: { noOfAnswers: noOfAnswers },
       });
-    } catch (error) {
+    } catch (error){
       console.log(error);
     }
   };

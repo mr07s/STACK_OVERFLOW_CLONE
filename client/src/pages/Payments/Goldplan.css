@@ -1,0 +1,135 @@
+.Goldplancontainer{
+    /* border: 1px solid black; */
+    border-radius:50px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 15px 25px #443d1c14, 0 6.26664px 10.4444px #443d1c0f, 0 3.35045px 5.58408px #443d1c0c, 0 1.87823px 3.13039px #443d1c0a, 0 0.997515px 1.66253px #443d1c08, 0 0.415088px 0.691814px #443d1c06;
+    min-width: 25rem;
+    max-width: 25vw;
+    /* flex-wrap: wrap; */
+    /* height: 70vh; */
+    /* margin: 5rem; */
+    /* margin-left: 2rem; */
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 45vh;
+    }
+    .g-containertag{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+    min-width: 25%;
+    max-width: 35%;
+    height: 1.5rem;
+    background-color: rgb(243, 185, 41);
+    color:#2f3337;
+    border-radius: 10px;
+    padding: 0.2rem;
+    
+    }
+    .g-containertag>h1{
+        font-weight: 400!important;
+        font-family: 'Source Sans Pro', sang-serif;
+      /* font-size: 6vh; */
+      font-size: 3vh;
+    }
+    .g-uppercontainer{
+    
+    /* border: 1px solid black; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    margin-right: auto;
+    flex-direction: column;
+    margin-left:1.2rem ;
+    min-width: 90%;
+    border-bottom:1px solid  rgb(243, 185, 41) ;
+    
+    
+    }
+    
+    .g-uppercontainer>h1{
+        margin-bottom: 0;
+        font-family: 'Roboto Slab', serif;
+        font-size: 3vh;
+        color:#2f3337;
+    }
+    
+    .g-uppercontainer>p
+    {
+        font-size: 2vh;
+        margin-top: 0;
+        font-weight: 400;
+        color:  rgb(243, 185, 41);
+    }
+    
+    
+    
+    
+    
+    .g-middlecontainer{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 90%;
+    /* justify-content: flex-start; */
+    margin-right: auto;
+    margin-left:1.2rem ;
+    margin-bottom: 2rem;
+    }
+    
+    .g-middlecontainer>p{
+        font-size: 2.3vh;
+    }
+    
+    .g-lowercontainer{
+    
+    margin-top: auto;
+    margin-bottom: 3rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .g-lowercontainer>button{
+    
+    width: 10rem;
+    height: 2rem;
+    width: 50%;
+    background-color:  rgb(243, 185, 41);
+    color: #2f3337;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sang-serif;
+    font-size: .9rem;
+    border-radius: 10px;
+    border: none;
+    
+    }
+    .g-lowercontainer>p{
+        font-size: 2vh;
+        margin-top: 0;
+        font-weight: 400;
+        color: rgb(243, 185, 41);
+    }
+    .g-lowercontainer>button:hover{
+        background-color:  rgb(245, 193, 63);
+    }
+    
+    @media screen and (min-width: 1200px) {
+        .Goldplancontainer
+        {
+         height: 55vh;
+         min-width: 20vw;
+        }
+        
+      }
+    
+    
+  

@@ -8,6 +8,7 @@ import DisplayQuestion from './pages/Questions/DisplayQuestion'
 import Tags from './pages/Tags/Tags'
 import Users from './pages/Users/Users'
 import UserProfile from './pages/UserProfile/UserProfile'
+import Payment from './pages/Payments/Payment'
 
 const AllRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AllRoutes = () => {
 <Route exact path='/Auth' element={<Auth/>}/>
 <Route exact path='/Questions' element={<Questions/>}/>
 <Route exact path='/AskQuestion' element={<AskQuestion/>}/>
+<Route exact path='/Payment' element={<Payment/>}/>
 <Route exact path='/Questions/:id' element={<DisplayQuestion/>}/>
 <Route exact path='/Tags' element={<Tags/>}/>
 <Route exact path='/Users' element={<Users/>}/>

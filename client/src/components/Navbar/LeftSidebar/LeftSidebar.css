@@ -47,3 +47,8 @@ background-color: rgba(225,225,225);
 border-right: solid 3px #ef8236;
 }
 
+@media screen and (max-width: 565px) {
+    .left-sidebar{
+display: none;
+    }
+}

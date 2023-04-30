@@ -13,6 +13,7 @@ align-items: center;
 
 .main-bar-header h1{
 font-weight: 400;
+margin: 2rem;
 
 
 }
@@ -35,7 +36,7 @@ min-height: 80px;
 width: 100%;
 display: flex;
 align-items: center;
-background-color: #fdf7e2;
+background-color: #fdece2;
 border-bottom: solid 1px #edef10;
 }
 .display-question-container .display-votes-ans{
@@ -96,3 +97,20 @@ color: #39739d;
 font-size: 13px;
 }
 
+.Questions{
+    /* background-color: black; */
+    /* border: 10px solid rgb(241, 6, 6); */
+}
+@media screen and (max-width: 860px) {
+    .main-bar{
+     float: unset;
+
+    } .Questions{
+     width: 60vw;
+    }
+  }
+@media screen and (max-width: 570px) {
+    .Questions{
+     width: 90vw;
+    }
+  }

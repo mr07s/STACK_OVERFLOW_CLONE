@@ -72,3 +72,11 @@ color: #39739d;
 border-radius: 2px;
 font-size:14px ;
 }
+@media screen and (max-width: 860px) {
+    .right-sidebar{
+        float: unset;
+        width: auto;
+margin: 40px 40px 15px 24px;
+
+    }
+  }

@@ -1,0 +1,35 @@
+.container{
+
+display: flex;
+/* border: 2px solid black; */
+/* height: 99%; */
+align-items: flex-start;
+/* justify-content: space-evenly; */
+flex-wrap: wrap;
+/* width: 100%; */
+box-sizing: border-box;
+justify-content: center;
+/* box */
+width: 100vw;
+/* height: 100vh; */
+/* padding: 0; */
+margin-top: 2vh;
+}
+
+.outercontainer{
+    /* border: 1px solid black; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.outercontainer>h1{
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 5vh;
+   padding-left: 7vw;
+
+
+}

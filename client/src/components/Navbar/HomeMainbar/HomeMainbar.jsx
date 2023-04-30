@@ -78,18 +78,23 @@ const redirect =()=>{
     alert("Log in or sign up to ask question")
     navigate('/Auth');
 }
-const checkAuth=()=>{
+// const checkAuth=()=>{
   
   
-  if(user==null){redirect()}
-  else{
-    navigate('/AskQuestion');
-  }
+//   if(user==null){redirect()}
+//   else{
+//     navigate('/Payment');
+//   }
+
+
+// }
+
+const askQ =()=>{
+
+  navigate('/askquestion');
 
 
 }
-
-
 const location =useLocation()
 
   return (
@@ -98,9 +103,9 @@ const location =useLocation()
 {
   location.pathname==='/'? <h1>Top Questions</h1>:<h1>All Questions</h1>
 }
-<button  onClick={checkAuth}  className='ask-btn'>Ask Questions</button>
+<button  onClick={askQ}  className='ask-btn'>Ask Questions</button>
 </div>
-<div>
+<div className='Questions'>
 {
   questionList.data===null? <h1>Loading...</h1>:
   <>
