@@ -1,143 +1,127 @@
-.main-nav{
-    min-height: 50px;
-    /* height: 1.1rem; */
-    width: 100%;
-    margin: 0% auto;
-    border-top: solid 3px #ef8236;
-    box-shadow: 0px 1px 5px #00000033;
-    /* position: fixed; */
-    z-index: 5;
-    top: 0%;
-    left: 0%;
-    background-color: #f8f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main-nav {
+  min-height: 50px;
+  /* height: 1.1rem; */
+  width: 100%;
+  margin: 0% auto;
+  border-top: solid 3px #ef8236;
+  box-shadow: 0px 1px 5px #00000033;
+  /* position: fixed; */
+  z-index: 5;
+  top: 0%;
+  left: 0%;
+  background-color: #f8f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Navbar{
-height: 100%;
-min-width: 85%;
-display: flex;
-align-items: center;
-justify-content: space-between;
+.Navbar {
+  height: 100%;
+  min-width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .nav-logo{ */
+/* padding: 5px 25px; */
 
+/* } */
+.nav-item {
+  margin: 0px 3px;
+  font-size: small;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  transition: 0.2s;
 }
-.nav-logo{
-    /* padding: 5px 25px; */
-
+.nav-item:nth-child(1) {
+  display: none;
 }
-.nav-item{
-margin: 0px 3px;
-font-size: small;
-font-weight: 500;
-text-decoration: none;
-color: rgb(69,69,69);
-transition: 0.2s;
-
+.nav-btn {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
 }
-.nav-item:nth-child(1){
-    display: none;
-
-}
-.nav-btn{
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 10px 20px;
-}
-.nav-item:hover{
-background-color: rgb(185, 185, 185);
-
+.nav-item:hover {
+  background-color: rgb(185, 185, 185);
 }
 
-.Navbar form{
-
-flex-grow: 1;
-padding: 0px 12px ;
-position: relative;
-
-
+.Navbar form {
+  flex-grow: 1;
+  padding: 0px 12px;
+  position: relative;
 }
 
-.Navbar form input{
-
-min-width: 90%;
-margin: 0 ;
-/* margin-right: 12px; */
-padding: 8px 10px 8px 32px;
-font-size: 13px;
-border: solid 1px #0000003e;
-border-radius: 3px;
-
-
+.Navbar form input {
+  min-width: 90%;
+  margin: 0;
+  /* margin-right: 12px; */
+  padding: 8px 10px 8px 32px;
+  font-size: 13px;
+  border: solid 1px #0000003e;
+  border-radius: 3px;
 }
-.Navbar form .searchIcon{
-
-position: absolute;
-left: 25px;
-top: 8px;
+.Navbar form .searchIcon {
+  position: absolute;
+  left: 25px;
+  top: 8px;
 }
-.nav-links{
-    padding: 7px 13px;
-    border: solid 1px blue;
-    border-radius: 3px;
-    background-color: #e7f8fe;
-    cursor: pointer;
+.nav-links {
+  padding: 7px 13px;
+  border: solid 1px blue;
+  border-radius: 3px;
+  background-color: #e7f8fe;
+  cursor: pointer;
 }
-.nav-links:hover{
-background-color: #d3e4eb;
+.nav-links:hover {
+  background-color: #d3e4eb;
 }
 
-.loginAvatar{
-    margin-right: 1.2rem;
-    margin-left: 1.2rem;
-   
+.loginAvatar {
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
 }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 1150px) {
-    .Navbar form input {
-     min-width: 74%;
-    }
+  .Navbar form input {
+    min-width: 74%;
   }
+}
 @media screen and (max-width: 800px) {
-    .Navbar form .searchIcon {
+  .Navbar form .searchIcon {
     position: initial;
     margin-left: 2rem;
     margin-top: 0.4rem;
-
-    }
-    .Navbar form input {
-       display: none;
-       }
   }
+  .Navbar form input {
+    display: none;
+  }
+}
 @media screen and (max-width: 595px) {
-    .nav-item {
-  display: none;
-
-    }
-    .nav-item:nth-child(even){
-        display: flex;
-    }
-    .nav-item:nth-child(7){
-        display: flex;
-    }
-    /* .nav-item:nth-child(3){
+  .nav-item {
+    display: none;
+  }
+  .nav-item:nth-child(even) {
+    display: flex;
+  }
+  .nav-item:nth-child(7) {
+    display: flex;
+  }
+  /* .nav-item:nth-child(3){
         display: flex;
     } */
+}
+/* @media screen and (max-width: 565px) {
+  .nav-item:nth-child(1) {
+    display: flex;
+    border: none;
+    background-color: #f8f9f9;
   }
+  .nav-item:nth-child(2) {
+    display: None;
+  }
+} */
 @media screen and (max-width: 565px) {
-    .nav-item:nth-child(1){
-        display: flex;
-        border: none;
-        background-color: #f8f9f9;
-    }
-    .nav-item:nth-child(2){
-        display: None;
-    }
+  .main-nav {
+    display: none;
   }
+}
